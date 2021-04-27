@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A86516542636966400625C45 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86516532636966400625C45 /* CollectionViewController.swift */; };
+		A86516572636969100625C45 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86516562636969100625C45 /* CollectionViewCell.swift */; };
 		A899A24B262C31B0007C8BE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A899A24A262C31B0007C8BE6 /* AppDelegate.swift */; };
 		A899A24D262C31B0007C8BE6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A899A24C262C31B0007C8BE6 /* SceneDelegate.swift */; };
 		A899A24F262C31B0007C8BE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A899A24E262C31B0007C8BE6 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A86516532636966400625C45 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		A86516562636969100625C45 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		A899A247262C31B0007C8BE6 /* AlogoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlogoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A899A24A262C31B0007C8BE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A899A24C262C31B0007C8BE6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				A899A24A262C31B0007C8BE6 /* AppDelegate.swift */,
 				A899A24C262C31B0007C8BE6 /* SceneDelegate.swift */,
 				A899A24E262C31B0007C8BE6 /* ViewController.swift */,
+				A86516532636966400625C45 /* CollectionViewController.swift */,
+				A86516562636969100625C45 /* CollectionViewCell.swift */,
 				A899A250262C31B0007C8BE6 /* Main.storyboard */,
 				A899A253262C31B1007C8BE6 /* Assets.xcassets */,
 				A899A255262C31B1007C8BE6 /* LaunchScreen.storyboard */,
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A86516572636969100625C45 /* CollectionViewCell.swift in Sources */,
+				A86516542636966400625C45 /* CollectionViewController.swift in Sources */,
 				A899A24F262C31B0007C8BE6 /* ViewController.swift in Sources */,
 				A899A24B262C31B0007C8BE6 /* AppDelegate.swift in Sources */,
 				A899A24D262C31B0007C8BE6 /* SceneDelegate.swift in Sources */,
@@ -296,7 +304,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Takuto0124.AlogoTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +323,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Takuto0124.AlogoTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

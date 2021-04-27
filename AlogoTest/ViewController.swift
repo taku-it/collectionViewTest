@@ -9,9 +9,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var backgroundLabel: UILabel!
+    
+    var receiveColor: UIColor = UIColor.black
+    var receiveName: String = "black"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        backgroundLabel.backgroundColor = receiveColor
+        self.navigationItem.title = receiveName
+        
     }
 
 
